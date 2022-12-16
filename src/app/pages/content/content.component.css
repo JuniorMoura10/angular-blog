@@ -1,0 +1,34 @@
+.content-container{
+
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container > img {
+  border: 5px solid grey;
+  border-radius: 5px;
+  min-width: 500px;
+  max-width: 500px;
+  min-height: 300px;
+  max-height: 300px;
+}
+
+.title-container {
+  font-size: 30px;
+}
+
+.news-container {
+  margin-top: 20px;
+}
+
+.news-container > p {
+  color: gray;
+  font-size: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
