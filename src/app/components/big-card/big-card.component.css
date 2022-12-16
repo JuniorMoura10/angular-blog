@@ -12,6 +12,8 @@
 
 .big-card-pic > img{
     width: 100%;
+    min-width: 400px;
+    max-height: 200px;
 }
 
 .big-card-date{
